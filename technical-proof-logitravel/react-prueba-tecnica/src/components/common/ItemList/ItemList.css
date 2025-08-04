@@ -1,0 +1,11 @@
+.list {
+  background: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  opacity: 1;
+  list-style: none;
+  margin: 0;
+  padding: 12px 12px;              
+  height: 227px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}

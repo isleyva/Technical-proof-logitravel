@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>technical-proof</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="title">This is a technical proof</p>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipiscing, elit mus primis nec
+        inceptos. Lacinia habitasse arcu molestie maecenas cursus quam nunc,
+        hendrerit posuere augue fames dictumst placerat porttitor, dis mi
+        pharetra vestibulum venenatis phasellus.
+      </p>
+
+      <ul id="textList" class="list"></ul>
+
+      <div class="buttons-container">
+        <div class="btn-group-left">
+          <button class="btn-outline" id="undoButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="1 4 1 10 7 10"></polyline>
+              <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+            </svg>
+          </button>
+          <button class="btn-outline" id="deleteButton">DELETE</button>
+        </div>
+        <button class="btn-primary" id="openModalButton">ADD</button>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <p>Add item to list</p>
+        <input
+          type="text"
+          id="modalInput"
+          placeholder="Type the text here..."
+        />
+        <div class="modal-actions">
+          <button class="btn-primary" id="modalAddButton">ADD</button>
+          <button class="btn-outline" id="modalCancelButton">CANCEL</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
