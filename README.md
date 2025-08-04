@@ -6,7 +6,6 @@ This repository hosts two independent projects, each contained in its own sub‑
 
 Repository structure
 
-.
 ├── react-prueba-tecnica       
 │   └── README.md      
 └── vanilla-prueba-tecnica         
